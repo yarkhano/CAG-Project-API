@@ -7,7 +7,7 @@ import google.generativeai as genai
 def get_llm_response(context: str, query: str) -> str:
     # --- FIX: Paste your API key here ---
     # Replace "YOUR_API_KEY_GOES_HERE" with your actual Gemini API key
-    api_key = "AIzaSyC6If0sgfxvycv-wSIb4bfv_Bb2ALm5Hyk"
+    api_key = ""
 
     # This is the modern, correct way to configure the API
     genai.configure(api_key=api_key)
@@ -36,4 +36,5 @@ def get_llm_response(context: str, query: str) -> str:
 
     # The 'return' is *outside* the 'for' loop
     # so it only returns after the *entire* response is built.
+
     return response_text
