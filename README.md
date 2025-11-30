@@ -1,4 +1,4 @@
-# The CAG API Project Using FastApi
+# The CAG Fast API Project 
 
 This project is a backend API developed using FastAPI. It gives you the ability to chat with your documents by uploading them and asking questions based on their content.
 
